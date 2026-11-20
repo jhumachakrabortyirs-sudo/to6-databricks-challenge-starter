@@ -1,0 +1,8 @@
+{
+  "table": "training.to6_challenge3_inputs.returns_corrected",
+  "total_rows": 12,
+  "distinct_return_ids": 12,
+  "affected_row_count": 0,
+  "affected_records": [],
+  "passed": true
+}

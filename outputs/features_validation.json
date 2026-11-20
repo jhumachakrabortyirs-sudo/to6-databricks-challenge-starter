@@ -1,0 +1,22 @@
+[
+  {
+    "return_id": "R05",
+    "tax_year": 2023,
+    "deduction_to_income": 0.144
+  },
+  {
+    "return_id": "R06",
+    "tax_year": 2023,
+    "deduction_to_income": 0.14166666666666666
+  },
+  {
+    "return_id": "R07",
+    "tax_year": 2023,
+    "deduction_to_income": 0.14
+  },
+  {
+    "return_id": "R08",
+    "tax_year": 2023,
+    "deduction_to_income": 0.13875
+  }
+]

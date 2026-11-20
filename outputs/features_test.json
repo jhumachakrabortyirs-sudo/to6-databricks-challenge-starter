@@ -1,0 +1,22 @@
+[
+  {
+    "return_id": "R09",
+    "tax_year": 2024,
+    "deduction_to_income": null
+  },
+  {
+    "return_id": "R10",
+    "tax_year": 2024,
+    "deduction_to_income": 0.137
+  },
+  {
+    "return_id": "R11",
+    "tax_year": 2024,
+    "deduction_to_income": 0.13636363636363635
+  },
+  {
+    "return_id": "R12",
+    "tax_year": 2024,
+    "deduction_to_income": 0.13583333333333333
+  }
+]

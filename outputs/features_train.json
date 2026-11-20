@@ -1,0 +1,22 @@
+[
+  {
+    "return_id": "R01",
+    "tax_year": 2022,
+    "deduction_to_income": 0.2
+  },
+  {
+    "return_id": "R02",
+    "tax_year": 2022,
+    "deduction_to_income": 0.165
+  },
+  {
+    "return_id": "R03",
+    "tax_year": 2022,
+    "deduction_to_income": null
+  },
+  {
+    "return_id": "R04",
+    "tax_year": 2022,
+    "deduction_to_income": 0.1475
+  }
+]

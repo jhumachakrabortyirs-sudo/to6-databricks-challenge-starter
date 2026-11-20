@@ -1,0 +1,29 @@
+{
+  "feature_table": "training.to6_c3_e5f099205cf8.return_features",
+  "source_table": "training.to6_challenge3_inputs.returns_corrected",
+  "columns": [
+    "return_id",
+    "tax_year",
+    "deduction_to_income"
+  ],
+  "row_count": 12,
+  "distinct_return_ids": 12,
+  "nonzero_check": {
+    "return_id": "R01",
+    "source_deduction": 20,
+    "source_income": 100,
+    "expected": 0.2,
+    "saved": 0.2
+  },
+  "zero_income_check": {
+    "return_ids": [
+      "R03",
+      "R09"
+    ],
+    "saved_ratios": [
+      null,
+      null
+    ]
+  },
+  "nonzero_ratio_mismatches": 0
+}

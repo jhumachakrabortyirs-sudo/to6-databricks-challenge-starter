@@ -1,0 +1,51 @@
+{
+  "decision": "REJECTED",
+  "rules": {
+    "completeness": [
+      "return_id",
+      "tax_year",
+      "income",
+      "deduction"
+    ],
+    "uniqueness": "return_id exactly once",
+    "validity": "amounts >= 0"
+  },
+  "table": "training.to6_challenge3_inputs.returns_initial",
+  "total_rows": 13,
+  "distinct_return_ids": 12,
+  "affected_row_count": 3,
+  "affected_records": [
+    {
+      "return_id": "R01",
+      "taxpayer_id": "F0",
+      "tax_year": 2022,
+      "income": 100,
+      "deduction": 20,
+      "rejection_reasons": [
+        "uniqueness: return_id occurs 2 times"
+      ]
+    },
+    {
+      "return_id": "R01",
+      "taxpayer_id": "F0",
+      "tax_year": 2022,
+      "income": 100,
+      "deduction": 20,
+      "rejection_reasons": [
+        "uniqueness: return_id occurs 2 times"
+      ]
+    },
+    {
+      "return_id": "R02",
+      "taxpayer_id": "F1",
+      "tax_year": 2022,
+      "income": null,
+      "deduction": 33,
+      "rejection_reasons": [
+        "completeness: required field income is null"
+      ]
+    }
+  ],
+  "passed": false,
+  "next_action": "Do not write features from training.to6_challenge3_inputs.returns_initial; assess training.to6_challenge3_inputs.returns_corrected with the same rules."
+}

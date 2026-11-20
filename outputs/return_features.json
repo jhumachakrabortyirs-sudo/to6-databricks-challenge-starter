@@ -1,0 +1,62 @@
+[
+  {
+    "return_id": "R01",
+    "tax_year": 2022,
+    "deduction_to_income": 0.2
+  },
+  {
+    "return_id": "R02",
+    "tax_year": 2022,
+    "deduction_to_income": 0.165
+  },
+  {
+    "return_id": "R03",
+    "tax_year": 2022,
+    "deduction_to_income": null
+  },
+  {
+    "return_id": "R04",
+    "tax_year": 2022,
+    "deduction_to_income": 0.1475
+  },
+  {
+    "return_id": "R05",
+    "tax_year": 2023,
+    "deduction_to_income": 0.144
+  },
+  {
+    "return_id": "R06",
+    "tax_year": 2023,
+    "deduction_to_income": 0.14166666666666666
+  },
+  {
+    "return_id": "R07",
+    "tax_year": 2023,
+    "deduction_to_income": 0.14
+  },
+  {
+    "return_id": "R08",
+    "tax_year": 2023,
+    "deduction_to_income": 0.13875
+  },
+  {
+    "return_id": "R09",
+    "tax_year": 2024,
+    "deduction_to_income": null
+  },
+  {
+    "return_id": "R10",
+    "tax_year": 2024,
+    "deduction_to_income": 0.137
+  },
+  {
+    "return_id": "R11",
+    "tax_year": 2024,
+    "deduction_to_income": 0.13636363636363635
+  },
+  {
+    "return_id": "R12",
+    "tax_year": 2024,
+    "deduction_to_income": 0.13583333333333333
+  }
+]
